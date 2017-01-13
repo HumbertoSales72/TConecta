@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CONFIG>
-  <Compiler Value="D:\lazarus14_64\fpc\2.6.4\bin\x86_64-win64\fpc.exe" Date="1180767787"/>
-  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FuD:\lazarus14_64\packager\units\x86_64-win64 &quot;-FuD:\Programas Lazarus\Componentes\synapse40\source\lib\&quot; &quot;-FUD:\Programas Lazarus\Componentes\synapse40\source\lib\lib\x86_64-win64\&quot; laz_synapse.pas"/>
-</CONFIG>

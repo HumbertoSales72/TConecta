@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CONFIG>
-  <Compiler Value="/usr/bin/fpc" Date="1449326971"/>
-  <Params Value=" -MObjFPC -Scghi -CX -O1 -g -gl -Xg -Xs -XX -l -vewnhibq &quot;-Fi/mnt/6BD1D9FB0013F8A3/Programas Lazarus/Componentes/spktoolbar/demos/actions/lib/i386-linux&quot; -Fl/opt/gnome/lib &quot;-Fu/mnt/6BD1D9FB0013F8A3/Programas Lazarus/Componentes/spktoolbar/lib/i386-linux&quot; -Fu/home/humberto/.lazarus/lib/IDEIntf/units/i386-linux/gtk2 -Fu/home/humberto/.lazarus/lib/LazControls/lib/i386-linux/gtk2 -Fu/home/humberto/.lazarus/lib/units/i386-linux/gtk2 -Fu/home/humberto/.lazarus/lib/LCLBase/units/i386-linux -Fu/usr/share/lazarus/1.6/components/lazutils/lib/i386-linux -Fu/usr/share/lazarus/1.6/packager/units/i386-linux &quot;-Fu/mnt/6BD1D9FB0013F8A3/Programas Lazarus/Componentes/spktoolbar/demos/actions/&quot; &quot;-FU/mnt/6BD1D9FB0013F8A3/Programas Lazarus/Componentes/spktoolbar/demos/actions/lib/i386-linux/&quot; &quot;-FE/mnt/6BD1D9FB0013F8A3/Programas Lazarus/Componentes/spktoolbar/demos/actions/bin/&quot; -dLCL -dLCLgtk2 project1.lpr"/>
-  <Complete Value="False"/>
-</CONFIG>
