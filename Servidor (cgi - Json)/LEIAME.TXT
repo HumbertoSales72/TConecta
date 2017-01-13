@@ -1,0 +1,5 @@
+Components
+zeos
+cgi  -  lazarus (Packages/Install_uninstall Packages)  
+			Available for installation
+			Save/Rebuild IDE

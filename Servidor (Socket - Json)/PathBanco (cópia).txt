@@ -1,0 +1,6 @@
+IP=127.0.0.1
+PORTA=5432
+BANCO=Frota
+USUARIO=postgres
+SENHA=masterkey
+TIPOBANCO=postgresql-8

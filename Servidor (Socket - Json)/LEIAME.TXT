@@ -1,0 +1,6 @@
+Components
+zeos
+
+TblockSocket (synapse)  -  Open package ../components/synapse40/source/lib/laz_synapse.lpk
+
+user - add project

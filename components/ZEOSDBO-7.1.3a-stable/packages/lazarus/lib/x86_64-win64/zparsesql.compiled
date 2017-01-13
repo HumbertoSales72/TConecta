@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="D:\lazarus14_64\fpc\2.6.4\bin\x86_64-win64\fpc.exe" Date="1184005730"/>
+  <Params Value=" -MDelphi -Scgi -O1 -g -gl -l -vewnhibq &quot;-FuD:\Programas Lazarus\Componentes\ZEOSDBO-7.1.3a-stable\src\parsesql&quot; -FuD:\lazarus14_64\packager\units\x86_64-win64 -FuD:\lazarus14_64\components\lazutils\lib\x86_64-win64 -FuD:\lazarus14_64\lcl\units\x86_64-win64 -FuD:\lazarus14_64\lcl\units\x86_64-win64\win32 &quot;-FuD:\Programas Lazarus\Componentes\ZEOSDBO-7.1.3a-stable\packages\lazarus\lib\x86_64-win64&quot; &quot;-FuD:\Programas Lazarus\Componentes\ZEOSDBO-7.1.3a-stable\packages\lazarus\&quot; &quot;-FUD:\Programas Lazarus\Componentes\ZEOSDBO-7.1.3a-stable\packages\lazarus\lib\x86_64-win64\&quot; -dLCL -dLCLwin32 zparsesql.pas"/>
+</CONFIG>

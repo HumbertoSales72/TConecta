@@ -1,0 +1,16 @@
+A Executar esse exemplo:
+
+1) crie um banco de dados com nome de Frota(se for postgres). O banco de dados pode ser qualquer um, contanto que vc especifique no pathbanco.
+
+2) Crie uma tabela com a seguinte estrutura;
+
+CREATE TABLE veiculo
+(
+  codigo character varying(3),
+  dataregistro date,
+  marca character varying(30),
+  modelo character varying(30) 
+);
+
+3) Popule a tabela com seus dados;
+4) faça um teste;

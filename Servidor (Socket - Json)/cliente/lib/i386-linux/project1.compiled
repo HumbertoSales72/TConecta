@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1449326971"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq &quot;-Fi/media/sales/6BD1D9FB0013F8A3/Programas Lazarus/Servidor Json Socket/cliente/lib/i386-linux&quot; -Fl/opt/gnome/lib -Fu/usr/share/lazarus/1.6/lcl/units/i386-linux/gtk2 -Fu/usr/share/lazarus/1.6/lcl/units/i386-linux &quot;-Fu/media/sales/6BD1D9FB0013F8A3/Programas Lazarus/Componentes/synapse40/source/lib/lib/i386-linux&quot; -Fu/usr/share/lazarus/1.6/components/lazutils/lib/i386-linux -Fu/usr/share/lazarus/1.6/packager/units/i386-linux &quot;-Fu/media/sales/6BD1D9FB0013F8A3/Programas Lazarus/Servidor Json Socket/cliente/&quot; &quot;-FU/media/sales/6BD1D9FB0013F8A3/Programas Lazarus/Servidor Json Socket/cliente/lib/i386-linux/&quot; -dLCL -dLCLgtk2 project1.lpr"/>
+</CONFIG>

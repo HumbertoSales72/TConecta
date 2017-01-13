@@ -1,0 +1,90 @@
+unit Unit1;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, fphttpclient, Forms, Controls, Graphics, Dialogs,
+  StdCtrls, ExtCtrls,blcksock;
+
+type
+
+  { TForm1 }
+
+  TForm1 = class(TForm)
+    Button1: TButton;
+    Button2: TButton;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Memo1: TMemo;
+    Timer1: TTimer;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Timer1Timer(Sender: TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.lfm}
+
+{ TForm1 }
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  with TFPHTTPClient.create(nil) do
+     begin
+       get('http://127.0.0.1:1300/acao?query=0',Memo1.lines);
+       free;
+     end;
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+var
+  cli : TTCPBlockSocket;
+  s  : string;
+begin
+  Memo1.clear;
+  cli := TTCPBlockSocket.Create;
+  Cli.Connect('127.0.0.1','1300');
+  if Cli.LastError <> 0 then
+      MEMO1.LINES.ADD('HOUVE ERRO')
+  ELSE begin
+        Memo1.lines.add('cliente (inicio): ' + formatdatetime('hh:mm:ss:zzz',time));
+        Cli.SendString('#msg30' + CRLF);
+        s := '';
+        s := Cli.RecvString(15000);
+        memo1.lines.add(s);
+        Memo1.lines.add('cliente (final): ' + formatdatetime('hh:mm:ss:zzz',time));
+  end;
+  cli.CloseSocket;
+  FreeAndNil(cli);
+end;
+
+procedure TForm1.Timer1Timer(Sender: TObject);
+var
+  t : TTime;
+begin
+  button2.click;
+
+{  if edit1.text = formatdatetime('hh:mm:ss',time) then
+      begin
+        button2.click;
+        t := StrToTime(edit1.text);
+        t := t + strtotime('00:00:03');
+        edit1.text := timetostr(t);
+        timer1.Interval:= strtoint(edit2.text);
+      end;}
+end;
+
+end.
+

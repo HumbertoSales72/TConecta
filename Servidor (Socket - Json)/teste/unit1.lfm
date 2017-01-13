@@ -1,0 +1,135 @@
+object Form1: TForm1
+  Left = 394
+  Height = 511
+  Top = 77
+  Width = 940
+  Caption = 'Form1'
+  ClientHeight = 511
+  ClientWidth = 940
+  LCLVersion = '1.6.0.4'
+  object Edit1: TEdit
+    Left = 29
+    Height = 27
+    Top = 62
+    Width = 876
+    TabOrder = 0
+    Text = '{"sql":"select * from veiculo where codigo = :codigo","posicao":0,"pacotes":10, "parametros":{"codigo":10}}'
+  end
+  object Button1: TButton
+    Left = 336
+    Height = 25
+    Top = 111
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 265
+    Height = 27
+    Top = 203
+    Width = 568
+    TabOrder = 2
+    Text = 'Edit2'
+  end
+  object Label1: TLabel
+    Left = 266
+    Height = 17
+    Top = 180
+    Width = 22
+    Caption = 'SQL'
+    ParentColor = False
+  end
+  object CurrencyEdit1: TCurrencyEdit
+    Left = 269
+    Height = 27
+    Top = 255
+    Width = 80
+    Alignment = taRightJustify
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 3
+    Value = 0
+    ZeroEmpty = False
+  end
+  object Label2: TLabel
+    Left = 272
+    Height = 17
+    Top = 238
+    Width = 27
+    Caption = 'Limit'
+    ParentColor = False
+  end
+  object CurrencyEdit2: TCurrencyEdit
+    Left = 272
+    Height = 27
+    Top = 305
+    Width = 80
+    Alignment = taRightJustify
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 4
+    Value = 0
+    ZeroEmpty = False
+  end
+  object Label3: TLabel
+    Left = 275
+    Height = 17
+    Top = 288
+    Width = 34
+    Caption = 'Offset'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 275
+    Height = 17
+    Top = 350
+    Width = 53
+    Caption = 'Limitador'
+    ParentColor = False
+  end
+  object Edit3: TEdit
+    Left = 274
+    Height = 27
+    Top = 367
+    Width = 182
+    TabOrder = 5
+    Text = 'Edit3'
+  end
+  object Label5: TLabel
+    Left = 276
+    Height = 17
+    Top = 408
+    Width = 81
+    Caption = 'Deslocamento'
+    ParentColor = False
+  end
+  object Edit4: TEdit
+    Left = 275
+    Height = 27
+    Top = 425
+    Width = 179
+    TabOrder = 6
+    Text = 'Edit4'
+  end
+  object Label6: TLabel
+    Left = 279
+    Height = 17
+    Top = 456
+    Width = 84
+    Caption = 'Cursor Posicao'
+    ParentColor = False
+  end
+  object CurrencyEdit3: TCurrencyEdit
+    Left = 276
+    Height = 27
+    Top = 473
+    Width = 80
+    Alignment = taRightJustify
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 7
+    Value = 0
+    ZeroEmpty = False
+  end
+end

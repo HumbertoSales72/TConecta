@@ -1,0 +1,71 @@
+Hint: * Convertendo arquivo D:\Programas Lazarus\Componentes\synapse40\source\demo\http\httpdemo.dpr *
+Hint: Adicionada definições -dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL nas opções customizadas
+Hint: Todos os arquivos de unidade encontrados
+Hint: * Reparando unidades usadas para o arquivo D:\Programas Lazarus\Componentes\synapse40\source\demo\http\httpdemo.dpr *
+Hint: 
+Hint: *** Arquivos de unidade sendo convertidos pertencentes ao projeto/pacote ***
+Hint: * Convertendo arquivo D:\Programas Lazarus\Componentes\synapse40\source\demo\http\Unit1.pas *
+Hint: Unidade "Windows" substituída com "LCLIntf, LCLType, LMessages" na seção "uses".
+Hint: 
+Hint: *** Corriginfo unidades usadas e reparando arquivos de formulários ***
+Hint: * Reparando arquivo formulário D:\Programas Lazarus\Componentes\synapse40\source\demo\http\Unit1.lfm *
+Hint: Removed property "TextHeight".
+Hint: Changed Top coord of TEdit from "16" to "14" inside TPanel.
+Hint: Changed Left coord of TEdit from "552" to "550" inside TPanel.
+Hint: Changed Top coord of TEdit from "16" to "14" inside TPanel.
+Hint: Changed Left coord of TEdit from "288" to "286" inside TPanel.
+Hint: Changed Top coord of TLabel from "16" to "14" inside TPanel.
+Hint: Changed Left coord of TLabel from "8" to "6" inside TPanel.
+Hint: Changed Top coord of TLabel from "16" to "14" inside TPanel.
+Hint: Changed Left coord of TLabel from "480" to "478" inside TPanel.
+Hint: Changed Top coord of TLabel from "16" to "14" inside TPanel.
+Hint: Changed Left coord of TLabel from "208" to "206" inside TPanel.
+Hint: Changed Top coord of TMemo from "181" to "179" inside TPanel.
+Hint: Changed Left coord of TMemo from "4" to "2" inside TPanel.
+Hint: Changed Top coord of TMemo from "81" to "79" inside TPanel.
+Hint: Changed Left coord of TMemo from "4" to "2" inside TPanel.
+Hint: Changed Top coord of TButton from "32" to "30" inside TPanel.
+Hint: Changed Left coord of TButton from "592" to "590" inside TPanel.
+Hint: Changed Top coord of TEdit from "32" to "30" inside TPanel.
+Hint: Changed Left coord of TEdit from "48" to "46" inside TPanel.
+Hint: Changed Top coord of TLabel from "8" to "6" inside TPanel.
+Hint: Changed Left coord of TLabel from "8" to "6" inside TPanel.
+Hint: Changed Top coord of TLabel from "40" to "38" inside TPanel.
+Hint: Changed Left coord of TLabel from "8" to "6" inside TPanel.
+Hint: Changed Top coord of TPanel from "4" to "2" inside TPanel.
+Hint: Changed Left coord of TPanel from "4" to "2" inside TPanel.
+Hint: Changed Top coord of TEdit from "72" to "70" inside TPanel.
+Hint: Changed Left coord of TEdit from "360" to "358" inside TPanel.
+Hint: Changed Top coord of TEdit from "72" to "70" inside TPanel.
+Hint: Changed Left coord of TEdit from "48" to "46" inside TPanel.
+Hint: Changed Top coord of TButton from "32" to "30" inside TPanel.
+Hint: Changed Left coord of TButton from "592" to "590" inside TPanel.
+Hint: Changed Top coord of TEdit from "32" to "30" inside TPanel.
+Hint: Changed Left coord of TEdit from "48" to "46" inside TPanel.
+Hint: Changed Top coord of TLabel from "80" to "78" inside TPanel.
+Hint: Changed Left coord of TLabel from "296" to "294" inside TPanel.
+Hint: Changed Top coord of TLabel from "80" to "78" inside TPanel.
+Hint: Changed Left coord of TLabel from "8" to "6" inside TPanel.
+Hint: Changed Top coord of TLabel from "40" to "38" inside TPanel.
+Hint: Changed Left coord of TLabel from "8" to "6" inside TPanel.
+Hint: Changed Top coord of TLabel from "8" to "6" inside TPanel.
+Hint: Changed Left coord of TLabel from "8" to "6" inside TPanel.
+Hint: Changed Top coord of TEdit from "72" to "70" inside TPanel.
+Hint: Changed Left coord of TEdit from "360" to "358" inside TPanel.
+Hint: Changed Top coord of TEdit from "72" to "70" inside TPanel.
+Hint: Changed Left coord of TEdit from "48" to "46" inside TPanel.
+Hint: Changed Top coord of TButton from "32" to "30" inside TPanel.
+Hint: Changed Left coord of TButton from "592" to "590" inside TPanel.
+Hint: Changed Top coord of TEdit from "32" to "30" inside TPanel.
+Hint: Changed Left coord of TEdit from "48" to "46" inside TPanel.
+Hint: Changed Top coord of TLabel from "80" to "78" inside TPanel.
+Hint: Changed Left coord of TLabel from "312" to "310" inside TPanel.
+Hint: Changed Top coord of TLabel from "80" to "78" inside TPanel.
+Hint: Changed Left coord of TLabel from "8" to "6" inside TPanel.
+Hint: Changed Top coord of TLabel from "8" to "6" inside TPanel.
+Hint: Changed Left coord of TLabel from "8" to "6" inside TPanel.
+Hint: Changed Top coord of TLabel from "40" to "38" inside TPanel.
+Hint: Changed Left coord of TLabel from "8" to "6" inside TPanel.
+Hint: * Reparando unidades usadas para o arquivo D:\Programas Lazarus\Componentes\synapse40\source\demo\http\Unit1.pas *
+Hint: A conversão levou: 00:00:28
+Hint: Conversão Pronta.

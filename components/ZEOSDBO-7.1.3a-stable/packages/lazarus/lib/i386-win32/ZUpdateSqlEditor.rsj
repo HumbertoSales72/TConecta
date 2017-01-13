@@ -1,0 +1,6 @@
+{"version":1,"strings":[
+{"hash":46347923,"name":"zupdatesqleditor.ssqldatasetopen","sourcebytes":[85,110,97,98,108,101,32,116,111,32,100,101,116,101,114,109,105,110,101,32,102,105,101,108,100,32,110,97,109,101,115,32,102,111,114,32,37,115],"value":"Unable to determine field names for %s"},
+{"hash":85974702,"name":"zupdatesqleditor.snodataset","sourcebytes":[78,111,32,100,97,116,97,115,101,116,32,97,115,115,111,99,105,97,116,105,111,110],"value":"No dataset association"},
+{"hash":244451828,"name":"zupdatesqleditor.ssqlgenselect","sourcebytes":[77,117,115,116,32,115,101,108,101,99,116,32,97,116,32,108,101,97,115,116,32,111,110,101,32,107,101,121,32,102,105,101,108,100,32,97,110,100,32,111,110,101,32,117,112,100,97,116,101,32,102,105,101,108,100],"value":"Must select at least one key field and one update field"},
+{"hash":179984303,"name":"zupdatesqleditor.ssqlnotgenerated","sourcebytes":[85,112,100,97,116,101,32,83,81,76,32,115,116,97,116,101,109,101,110,116,115,32,110,111,116,32,103,101,110,101,114,97,116,101,100,44,32,101,120,105,116,32,97,110,121,119,97,121,63],"value":"Update SQL statements not generated, exit anyway?"}
+]}
